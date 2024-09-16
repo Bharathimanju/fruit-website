@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.one {
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+
+
+}
+
+#im {
+    background-image: url(./images/cover\ img1.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+}
+
+.two {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.three {
+    color: rgb(99, 193, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item a {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    background-color: rgb(111, 141, 111);
+    font-size: 20px;
+    color: black;
+}
+
+#ims img {
+    border-radius: 50%;
+}
+
+/* container 2  */
+.head1 h1 {
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.head1 ul li {
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+}
+
+.head1 ul li a {
+    text-decoration: none;
+    background-color: rgb(173, 222, 222);
+    border-radius: 10px;
+    padding: 4px;
+    color: black;
+    width: 45px;
+
+
+
+}
+
+.head1 ul li a:hover {
+    background-color: orange;
+    color: white
+}
+
+/*  container card 3 */
+.imgzoom img {
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.imgzoom {
+    overflow: hidden;
+}
+
+
+.imgzoom img:hover {
+    transform: scale(1.1);
+
+}
+
+.cardhover:hover {
+    box-shadow: 10px 20px 22px gray;
+}
+
+.imgzoom p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+}
+
+.content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.box1 button {
+    color: rgb(106, 227, 106);
+    font-weight: 600;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* container card 4  */
+
+.img-item {
+    position: relative;
+}
+
+.para {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    text-align: center;
+    background-color: rgb(22, 125, 22);
+    width: 190px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#border {
+    border: 1px solid orange;
+}
+
+/* container 5 */
+
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 10px;
+    margin: 5px;
+
+
+
+}
+
+.item {
+    flex: 0 0 auto;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.item:hover {
+    box-shadow: 2px 5px 5px gray;
+
+}
+
+.im {
+    overflow: hidden;
+}
+
+.im img {
+    position: relative;
+    transition: 0.9s ease-in;
+}
+
+.im img:hover {
+    transform: scale(1.1);
+}
+
+.im p {
+    position: absolute;
+    top: 6px;
+    left: 60%;
+    background-color: rgb(61, 219, 61);
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.heads1 button {
+    padding: 3px;
+    color: rgb(62, 162, 62);
+    font-weight: 500;
+    border: 2px solid orange;
+    border-radius: 18px;
+    width: 120px;
+}
+
+#borders1 {
+    border: 1px solid rgb(69, 190, 69);
+}
+
+#but {
+    padding: 2px;
+    color: rgb(91, 187, 91);
+    width: 50px;
+    border-radius: 18px;
+    border: 1px solid orange;
+    background-color: white;
+    margin: 3px;
+}
+
+#but :hover {
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+}
+
+#but a {
+    text-decoration: none;
+    color: green;
+}
+
+/* container 6 */
+
+.d h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.d .pi {
+    font-size: 50px;
+}
+
+.d button {
+    background-color: orange;
+    border: 1px solid white;
+    padding: 4px;
+    margin: 5px;
+    width: 80px;
+    border-radius: 18px;
+}
+
+.d button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(71, 195, 71);
+}
+
+.imgs img {
+    position: relative;
+}
+
+.top h1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* container 8 */
+
+.cardimg {
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 5px;
+    background-color: #ebf5fb
+}
+
+.card1 img {
+    border-radius: 70%;
+    width: 250px;
+    height: 250px;
+}
+
+.card2 {
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+}
+
+.card2 button {
+    padding: 4px;
+    margin: 6px;
+    border: 1px solid orange;
+    color: rgb(54, 190, 54);
+    font-weight: 500;
+    border-radius: 20px;
+    width: 125px;
+}
+
+/* container 9 */
+.b1 {
+    padding: 4px;
+    margin: 8px;
+    border: 1px solid orange;
+    color: rgb(54, 190, 54);
+    font-weight: 500;
+    border-radius: 20px;
+    width: 150px;
+}
+
+/* container 10 */
+
+
+
+.icon i {
+    font-size: 50px;
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.fontsbox {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 2px 4px 8px gray;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.icon h5 {
+    color: rgb(81, 176, 81);
+}
+
+.icon strong {
+    color: rgb(57, 54, 54);
+}
+
+.set1 {
+    margin-left: 19px;
+}
+
+#newo {
+    border-radius: 12px;
+    width: 530px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #ebf5fb;
+
+}
+
+/* #garys{
+    background-color: #566573 ;
+} */
+#garys {
+    background-color: rgb(121, 153, 184);
+}
+#d1 p{
+    color: rgb(225, 220, 220);
+    font-size: 17px;
+}
+#d1 p:hover{
+    cursor: pointer;
+    color: orange;
+}
+#read{
+    width: 110px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#read:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px 7px gray;
+
+}
